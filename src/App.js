@@ -3,6 +3,7 @@ import './App.css';
 import LoginForm from './LoginForm';
 import ImageGallery from './ImageGallery';
 import Table from './Table';
+import Pans from './Pans';
 
 function App() {
   const images = [
@@ -18,7 +19,8 @@ function App() {
   // <LoginForm onSubmit={(username, password) => console.log('I received', username, password)} />
   // <ImageGallery images={images} />
   return (
-    <Table />
+    // <Table />
+    <Pans />
   );
 }
 

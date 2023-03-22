@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  background-color: #08090a;
+  font-family: 'Poppins'!important;
+}
+.main {
+  background-color: #08090a;
+  height: "100%";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.right-sidebar {
+  padding: 128px!important;
+}
+
+.form {
+  padding-top: 86px;
+}
+
+h1 {
+  color: #fff;
+  line-height: 48px;
+  font-weight: 500;
+  font-size: 32px!important;
+}
+
+h2 {
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 16px!important;
+  line-height: 16px;
+}
+
+label {
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Input */
+input.form-control:focus,
+input.form-control:active,
+input.form-control {
+  background-color: #08090a;
+  border-width: 1px;
+  border-color: #16191f;
+  color: #6c757d;
+  box-shadow: none;
+}
+input.form-control:focus {
+  box-shadow: 0 0 0 0.25rem #16191f44;
+}
+
+/* Select */
+select.form-select:focus,
+select.form-select:active,
+select.form-select {
+  background-color: #08090a;
+  border-width: 1px;
+  border-color: #16191f;
+  color: #6c757d;
+  box-shadow: none;
+}
+select.form-select:focus {
+  box-shadow: 0 0 0 0.25rem #16191f44;
+}
+
+/* Buttons */
+.action-buttons {
+  margin-top: 64px!important;
+}
+
+.btn {
+  padding: 16px!important;
+  font-size: 16px!important;
+  line-height: 21px!important;
+  font-weight: 500!important;
+  color: #fff!important;
+}
+
+.btn-primary {
+  background-color: #023E8A!important;
+  border: none!important;
+}
+.btn-outline-primary {
+  background-color: sdf;
+  border-color: #16191F!important;
 }
